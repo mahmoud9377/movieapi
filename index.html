@@ -1,0 +1,444 @@
+<html>
+<head>
+
+<title> JS EXAM </title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+<section id="navbarlist" class="slidebar bg-light m-2 >
+    <div class="strip-header-nav"> 
+        <div class="strip-logo p-2 ">
+            <img src="image/logo.png">
+        </div>
+        <div id="options" class="strip-toggel-menu p-2">
+            <i class="fa-solid fa-align-justify"> </i>
+        </div>
+        <div  class="strip-social-icon p-2">
+            <div class="strip-lang">
+                <span>
+                    <i class="fa-solid fa-globe"> </i>
+                </span>
+            </div>
+            <div class="strip-share p-2">
+                <span>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </span>
+                <div class="nav-tab-menu open-menu ">
+                    <div class="nav-item">
+                        <ul >
+                            <li class="item1" style="opacity: 1; padding-top: 25px;">
+                            <a id="playinglink" class="nav-category" href="#now playing"> Now playing </a>
+                            </li>
+                            <li class="item2" style="opacity: 1; padding-top: 25px;">
+                            <a id="popularlink" class="nav-category" href="#popular"> Popular </a> 
+                            </li>
+                            <li class="item3" style=" padding-top: 25px;">
+                            <a class="nav-category" href="#top rated"> Top Rated </a>
+                            </li>
+                            <li class="item5" style="opacity: 1; padding-top: 25px;"> 
+                            <a class="nav-category" href="#trending "> Trending </a>
+                            </li>
+                            <li class="item6" style="opacity: 1; padding-top: 25px;">
+                            <a class="nav-category" href="#upcoming"> Upcoming </a>
+                            </li>
+                            <li class="item7" style="opacity: 1; padding-top: 25px;">
+                            <a class="nav-category" href="#contact"> Contact Us </a>
+                           </li>
+                        </ul>
+                    </div>
+                    <div class="nav-social-item m-3 p-3">
+                        <a href="#"> 
+                        <i class="fab fa-facebook-f"> </i> </a>
+                        <a href="#"> 
+                        <i class="fab fa-twitter"> </i> </a>
+                        <a href="#"> 
+                            <i class="fas fa-globe"> </i> </a>
+                        <div class="pt-3">
+                            <span> Copyright Â© 2019 All Rights Reserved. </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="movie-serch" class="home pt-5 m-5">
+<div class="container w-75">
+<div class="row">
+<div class="col-md-6">
+   <input id="allmovie" class="form-control mb-5" placeholder="get movies by word ..."  type="text">
+</div>
+<div class="col-md-6">
+    <input id="words-film" class="form-control " placeholder="search" type="text">
+</div>
+</div>
+</div>      
+</section>
+
+<section id="movies-list"  class="container text-center my-1 py-2 ">			
+    <div class="row" id="rowData">
+    <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Doctor Strange in the Multiverse of Madness</h2>
+                <p>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</p>
+                <p>rate: 7.6</p>
+                <p>2022-05-04</p>    
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/neMZH82Stu91d3iqvLdNQfqPPyl.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>The Lost City</h2>
+                <p>A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.</p>
+                <p>rate: 6.8</p>
+                <p>2022-03-24</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Jurassic World Dominion</h2>
+                <p>Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.</p>
+                <p>rate: 6.7</p>
+                <p>2022-06-01</p>  
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/QaNLpq3Wuu2yp5ESsXYcQCOpUk.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Memory</h2>
+                <p>Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.</p>
+                <p>rate: 7.3</p>
+                <p>2022-04-28</p>   
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Morbius</h2>
+                <p>Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.</p>
+                <p>rate: 6.4</p>
+                <p>2022-03-30</p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/rkpLvPDe0ZE62buUS32exdNr7zD.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Dog</h2>
+                <p>An army ranger and his dog embark on a road trip along the Pacific Coast Highway to attend a friend's funeral.</p>
+                <p>rate: 7.4</p>
+                <p>2022-02-17</p>  
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/8p9zXB7M78nZpm215zHfqpknMeM.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>The Northman</h2>
+                <p>Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.</p>
+                <p>rate: 7.3</p>
+                <p>2022-04-07</p> 
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>The Desperate Hour</h2>
+                <p>A woman desperately races to save her child after police place her hometown on lockdown due to an active shooter incident.</p>
+                <p>rate: 6</p>
+                <p>2021-09-12</p>  
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/fVf4YHHkRfo1uuljpWBViEGmaUQ.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Hustle</h2>
+                <p>After discovering a once-in-a-lifetime player with a rocky past abroad, a down on his luck basketball scout takes it upon himself to bring the phenom to the States without his team's approval. Against the odds, they have one final shot to prove they have what it takes to make it in the NBA.</p>
+                <p>rate: 7.8</p>
+                <p>2022-06-03</p> 
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/aqhLeieyTpTUKPOfZ3jzo2La0Mq.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>The Unbearable Weight of Massive Talent</h2>
+                <p>Creatively unfulfilled and facing financial ruin, Nick Cage must accept a $1 million offer to attend the birthday of a dangerous superfan. Things take a wildly unexpected turn when Cage is recruited by a CIA operative and forced to live up to his own legend, channeling his most iconic and beloved on-screen characters in order to save himself and his loved ones.</p>
+                <p>rate: 7.1</p>
+                <p>2022-04-20</p> 
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/vpILbP9eOQEtdQgl4vgjZUNY07r.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Lightyear</h2>
+                <p>Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.</p>
+                <p>rate: 7</p>
+                <p>2022-06-15</p>   
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>ドラゴンボール超：スーパーヒーロー</h2>
+                <p>The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.</p>
+                <p>rate: 8.4</p>
+                <p>2022-06-11</p>  
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/u9DzgsmssidygWuORgYzhi317vj.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Panama</h2>
+                <p>An ex-marine is hired by a defense contractor to travel to Panama to complete an arms deal. In the process he becomes involved with the U.S. invasion of Panama, and learns an important lesson about the true nature of political power.</p>
+                <p>rate: 5.9</p>
+                <p>2022-03-17</p>   
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/cpWUtkcgRKeauhTyVMjYHxAutp4.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Interceptor</h2>
+                <p>A U.S. Army Captain uses her years of tactical training to save humanity from sixteen nuclear missiles launched at the U.S. as a violent attack threatens her remote missile interceptor station.</p>
+                <p>rate: 6.2</p>
+                <p>2022-05-26</p>  
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/mVVU9zC8snNHlcqYONY2HOsh9ob.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Shark Bait</h2>
+                <p>A group of friends enjoying a weekend steal a couple of jetskis racing them out to sea, ending up in a horrific head-on collision. They struggle to find a way home with a badly injured friend while from the waters below predators lurk.</p>
+                <p>rate: 6.9</p>
+                <p>2022-05-13</p> 
+            </div>
+            </div>
+            </div>
+            </div>
+        </div><div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/rJHC1RUORuUhtfNb4Npclx0xnOf.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Uncharted</h2>
+                <p>A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.</p>
+                <p>rate: 7.1</p>
+                <p>2022-02-10</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/8Kce1utfytAG5m1PbtVoDzmDZJH.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>A Day to Die</h2>
+                <p>A disgraced parole officer is indebted to a local gang leader and forced to pull off a series of dangerous drug heists within twelve hours in order to pay the $2 million dollars he owes, rescue his kidnapped pregnant wife, and settle a score with the city's corrupt police chief, who is working with the gang leader and double-crossed him years ago.</p>
+                <p>rate: 6.1</p>
+                <p>2022-03-04</p> 
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/qk1ZERG6yhwAJqTobmDgw8jRL2C.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>See for Me</h2>
+                <p>When blind former skier Sophie cat-sits in a secluded mansion, three thieves invade for the hidden safe. Sophie's only defense is army veteran Kelly, who she meets on the See For Me app. Kelly helps Sophie defend herself against the invaders and survive.</p>
+                <p>rate: 6.2</p>
+                <p>2022-01-07</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>The Bad Guys</h2>
+                <p>When the infamous Bad Guys are finally caught after years of countless heists and being the world’s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.</p>
+                <p>rate: 7.8</p>
+                <p>2022-03-17</p> 
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-3 myM  shadow">
+    <div class="movie shadow rounded position-relative">
+            <div class="post">
+            <img src="https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg" class="img-fluid rounded">
+            <div class="layer d-flex align-items-center ">
+            <div class="info p-0">
+                <h2>Top Gun: Maverick</h2>
+                <p>After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.</p>
+                <p>rate: 8.4</p>
+                <p>2022-05-24</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    
+    
+<section id="contact" class="container myM w-75 mx-auto my-5 ">  
+	<h2 class="text-light my-5">ContacUs...</h2>
+	<div class="row">
+	  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control" id="name" placeholder="Enter Your Name">
+		<div class="alert alert-danger" id="namealert" role="alert" style="display: block;">
+		  Your Name is not valid
+		</div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control" id="email" placeholder="Enter Email">
+	  <div class="alert alert-danger" id="emailalert" role="alert">
+		entre valid email
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control" id="phone" placeholder="Enter phone">
+	  <div class="alert alert-danger" id="phonealert" role="alert"> entre valid phone
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control" id="age" placeholder="Enter Age">
+	  <div class="alert alert-danger" id="agealert" role="alert" style="display: none;">entre valid Age
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control" type="password" id="password" placeholder="Enter Password">
+	  <div class="alert alert-danger" id="passwordalert" role="alert">
+		entre valid password *Minimum eight characters, at least one letter and one number:*
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control" type="password" id="rePassword" placeholder="Enter RePassword">
+	  <div class="alert alert-danger" id="repasswordalert" role="alert">entre valid Repassword
+	  </div>
+	</div>
+  </div>
+
+
+  </div>  
+	
+	<button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+
+</section>
+        
+ <script src="./js/jquery-3.6.0.min.js" > </script>       
+<script src="js/main.js"> </script>
+</body>
+</html>
+
